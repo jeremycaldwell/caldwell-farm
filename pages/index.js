@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Caldwell Farm" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          To place an order please call 509-713-2333 or fill out the form below.
         </p>
       </main>
 
