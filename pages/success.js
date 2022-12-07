@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Caldwell Farm" />
-        <p className="description">Succes!</p>
-        <p>Your request has been submitted.</p>
+        <Header title="Succes!" />
+        <p>Thank you for your order.</p>
+        <p>We will collect and clean the eggs then let you know when they are ready for pickup or delivery.</p>
       </main>
 
       <Footer />
