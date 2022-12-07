@@ -6,7 +6,7 @@ export default function EggOrderForm() {
         className={styles.form}
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        name="feedback"
+        name="eggOrderForm"
         method="POST"
         action="/success"
       >
