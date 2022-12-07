@@ -24,7 +24,7 @@ export default function EggOrderForm() {
         <input id="email" className={styles['form-field']} type="email" name="email" required />
 
         <label htmlFor="eggcount">How many eggs would you like?</label>
-        <textarea id="eggcount" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
+        <textarea id="eggcount" className={styles['form-field']} wrap="soft" name="eggcount" required></textarea>
         <button className={styles.button} type="submit">Submit</button>
       </form>
   )
