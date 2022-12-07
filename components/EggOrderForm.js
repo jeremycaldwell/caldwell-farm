@@ -10,7 +10,7 @@ export default function EggOrderForm() {
         method="POST"
         action="/success"
       >
-        <input type="hidden" name="form-name" value="feedback" />
+        <input type="hidden" name="form-name" value="eggOrderForm" />
         <p className={styles.hidden}>
             <label>
             Don't fill this out if you're human: <input name="bot-field" />
