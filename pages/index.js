@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
+import Footer from '@components/Footer'
 
 export default function Home() {
   return (
@@ -11,12 +12,30 @@ export default function Home() {
 
       <main>
         <Header title="Caldwell Farm" />
-        <h2>10914 East Richard Lane<br/>
-        Spokane Valley, WA 99206</h2>
-        <p className="description">
-          To place an order please call 509-713-2333 or fill out the form below.
-        </p>
+        <p className="description">To order eggs please fill out the form below.</p>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Name: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Phone Number: <input type="phone" name="phone" /></label>
+          </p>
+          <p>
+            <label>Number of eggs: <input type="text" name="eggs" /></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Submit</button>
+          </p>
+        </form>
       </main>
+
+      <Footer />
     </div>
   )
 }

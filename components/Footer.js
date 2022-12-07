@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
+      10914 East Richard Lane, Spokane Valley, WA 99206 | 509-713-2322
       </footer>
     </>
   )
