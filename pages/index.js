@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Caldwell Farm" />
         <p className="description">To order eggs please fill out the form below.</p>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="eggOrderForm" method="POST" data-netlify="true">
           <p>
             <label>Name: <input type="text" name="name" /></label>
           </p>
