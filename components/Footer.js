@@ -4,7 +4,9 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-      10914 East Richard Lane, Spokane Valley, WA 99206 | 509-713-2322
+      10914 East Richard Lane<br/>
+      Spokane Valley, WA 99206<br/>
+      509-713-2322
       </footer>
     </>
   )
