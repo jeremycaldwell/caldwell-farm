@@ -16,7 +16,7 @@ export default function Home() {
           <div class="description">
             <p>Thank you for your order.</p>
             <p>We will collect and clean the eggs then let you know when they are ready for pickup or delivery.</p>
-            <a href="https://cash.app/$eternalistic">Pay now using Cash App</a>
+            <p><em>Payment can be made at time of delivery.</em></p>
           </div>
         </header>
       </main>
