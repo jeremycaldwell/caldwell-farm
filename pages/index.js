@@ -7,14 +7,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Caldwell Farm</title>
+        <title>Caldwell Farm Egg Order Form</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Caldwell Farm" />
-        <p className="description">To order eggs please fill out the form below.</p>
-        <p>Price is 33&cent; per egg.</p>
+        <header class="header">
+          <Header title="Caldwell Farm Egg Order Form" />
+          <p className="description">To order eggs please fill out the form below and we will get back to you and schedule a pickup or delivery time.</p>
+        </header>
         <EggOrderForm />
       </main>
 

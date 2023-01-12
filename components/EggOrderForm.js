@@ -20,11 +20,22 @@ export default function EggOrderForm() {
         <label htmlFor="name">Name</label>
         <input id="name" className={styles['form-field']} type="text" name="name" />
 
-        <label htmlFor="email">Email</label>
-        <input id="email" className={styles['form-field']} type="email" name="email" required />
+        <label htmlFor="tel">Phone Number</label>
+        <input id="tel" className={styles['form-field']} type="tel" name="tel" />
 
-        <label htmlFor="eggcount">How many eggs would you like?</label>
-        <textarea id="eggcount" className={styles['form-field']} wrap="soft" name="eggcount" required></textarea>
+        <fieldset>
+          <label htmlFor="eggcount">Number of Eggs</label>
+          <select id="eggcount" className={styles['form-field']} name="eggcount" required>
+            <option value="12" selected>1 dozen ($4.00)</option>
+            <option value="24">2 dozen ($8.00)</option>
+            <option value="36">3 dozen ($12.00)</option>
+            <option value="48">4 dozen ($16.00)</option>
+            <option value="other">Other (At 33&cent; per egg)</option>
+          </select>
+          <label htmlFor="other">Other Amount (At 33&cent; per egg)</label>
+          <input id="other" className={styles['form-field']} type="text" name="other" />
+        </fieldset>
+
         <button className={styles.button} type="submit">Submit</button>
       </form>
   )

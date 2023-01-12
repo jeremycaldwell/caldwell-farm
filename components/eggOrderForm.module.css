@@ -1,12 +1,11 @@
 .form {
-  margin: 40px 40px;
-  min-width: 300px;
-  width: 45%;
+  margin: 20px auto;
+  max-width: 400px;
 }
 
 .form-field {
   font-size: inherit;
-  margin: 15px 0;
+  margin: 5px 0 20px;
   padding: 12px 20px;
   width: 100%;
 }
@@ -21,6 +20,7 @@
   padding: 12px 20px;
   width: 100%;
 }
+
 .hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
