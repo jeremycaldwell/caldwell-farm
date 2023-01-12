@@ -27,13 +27,11 @@ export default function EggOrderForm() {
           <label htmlFor="eggcount">Number of Eggs</label>
           <select id="eggcount" className={styles['form-field']} name="eggcount" required>
             <option value="12" selected>1 dozen ($4.00)</option>
+            <option value="18">18 eggs ($6.00)</option>
             <option value="24">2 dozen ($8.00)</option>
             <option value="36">3 dozen ($12.00)</option>
             <option value="48">4 dozen ($16.00)</option>
-            <option value="other">Other (At 33&cent; per egg)</option>
           </select>
-          <label htmlFor="other">Other Amount (At 33&cent; per egg)</label>
-          <input id="other" className={styles['form-field']} type="text" name="other" />
         </fieldset>
 
         <button className={styles.button} type="submit">Submit</button>
