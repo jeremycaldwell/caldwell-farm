@@ -18,10 +18,10 @@ export default function EggOrderForm() {
         </p>
 
         <label htmlFor="name">Name</label>
-        <input id="name" className={styles['form-field']} type="text" name="name" />
+        <input id="name" className={styles['form-field']} type="text" name="name" required/>
 
         <label htmlFor="tel">Phone Number</label>
-        <input id="tel" className={styles['form-field']} type="tel" name="tel" />
+        <input id="tel" className={styles['form-field']} type="tel" name="tel" required/>
 
         <fieldset>
           <label htmlFor="eggcount">Number of Eggs</label>
