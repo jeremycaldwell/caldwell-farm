@@ -32,11 +32,13 @@ p {
   margin: 0 0 20px;
 }
 
-input {
+input,
+select {
   border: 1px solid #ccc;
 }
 
-input:focus {
+input:focus,
+select:focus {
   border-color: #000;
 }
 
