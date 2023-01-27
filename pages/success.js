@@ -16,7 +16,18 @@ export default function Home() {
           <div class="description">
             <p>Thank you for your order.</p>
             <p>We will collect and clean the eggs then let you know when they are ready for pickup or delivery.</p>
-            <p><em>Payment can be made at time of delivery.</em></p>
+            <p><b>Online payment methods</b></p>
+            <p>
+              <a href="https://cash.app/$eternalistic" class="icon-with-link">
+                <img src="/icon-square-cash.svg" alt="Cash App icon" width="30px" />
+                Cash App
+              </a>
+              <a href="https://account.venmo.com/u/eternalistic" class="icon-with-link">
+                <img src="/venmo-logo.svg" alt="Venmo App icon" width="30px" />
+                Venmo
+              </a>
+            </p>
+            <p><em>Payment can also be made at time of delivery.</em></p>
           </div>
         </header>
       </main>
