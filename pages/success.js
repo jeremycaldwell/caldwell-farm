@@ -18,7 +18,7 @@ export default function Home() {
             <p>We will collect and clean the eggs then let you know when they are ready for pickup or delivery.</p>
             <p><b>Online payment methods</b></p>
             <p>
-              <a href="https://cash.app/$eternalistic" class="icon-with-link">
+              <a href="https://cash.app/$jeremymcaldwell" class="icon-with-link">
                 <img src="/icon-square-cash.svg" alt="Cash App icon" width="30px" />
                 Cash App
               </a>
