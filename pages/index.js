@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <header class="header">
+        <header className="header">
           <Header title="Caldwell Farm Egg Order Form" />
           <p className="description">To order eggs please fill out the form below and we will get back to you and schedule a pickup or delivery time.</p>
         </header>
